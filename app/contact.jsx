@@ -28,7 +28,7 @@ var Contact = React.createClass({
                     this.state.visible ?
                         <div>
                             <h1> Contact Horikage </h1>
-                            <h2> Get in touch with me to get the ball rolling </h2>
+                            <h2> Please, get in touch with me to get the ball rolling </h2>
                             <ul>
                                 { this.props.items.map(function(m, index){
                                     return <ContactInformation key={index} info={ m } />
