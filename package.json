@@ -1,0 +1,34 @@
+{
+  "name": "horikage",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.6.0",
+    "react-image-gallery": "git+https://github.com/jonwarghed/react-image-gallery.git",
+    "react-imageloader": "^1.1.3",
+    "react-loadermixin": "^1.0.4",
+    "react-swipe": "^1.0.3",
+    "susy": "^2.2.2",
+    "swipejs": "git+https://github.com/lyfeyaj/swipe.git"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "gulp": "^3.8.11",
+    "gulp-connect": "^2.2.0",
+    "gulp-image-resize": "^0.6.0",
+    "gulp-livereload": "^3.8.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^1.3.3",
+    "gulp-uglify": "^1.1.0",
+    "react": "^0.12.2",
+    "reactify": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^2.4.0"
+  }
+}

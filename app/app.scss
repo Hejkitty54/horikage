@@ -1,0 +1,69 @@
+@import "../node_modules/susy/sass/susy";
+@import "scss/imagegallery";
+@import "scss/menu";
+@import "scss/background";
+@import "scss/contactinformation";
+
+$susy: (
+        columns: 5,
+        gutters: .25,
+        gutter-position: inside,
+);
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.init {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  text-align: center;
+  display: block;
+}
+
+
+.Gallery {
+  font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+.Gallery .ImageGallery {
+  margin: 0 auto;
+}
+
+@media (min-width: 758px) {
+  .Gallery .ImageGallery, Menu {
+      width: 500px;
+      max-width: 90%;
+  }
+
+  .Menu ul, .Contact ul, .big-spin {
+    width: 500px !important;
+    max-width: 100% !important;
+  }
+
+  .Gallery .ImageGallery, .Contact {
+    width: 500px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .Gallery .ImageGallery, .intro {
+    width: 100%;
+  }
+}
+
+.GalleryTransition-enter{
+    opacity: 0.01;
+    transition: opacity 1s ease-in;
+}
+.GalleryTransition-enter.GalleryTransition-enter-active {
+    opacity: 1;
+  }
+
+.hidden {
+  display: none;
+}
+
